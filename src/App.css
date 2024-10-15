@@ -103,9 +103,20 @@ input {
   margin-bottom: 5px;
   font-size: 0.9rem;
   color: #1c2c4c;
+  word-break: break-all;
+  animation: fade-in 1s;
 }
 .user-message {
   word-break: break-all;
+  animation: fade-in 1s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
 }
 .message-time {
   display: block;
@@ -120,6 +131,7 @@ input {
   padding: 20px 30px;
   background-color: #4c768d;
   display: flex;
+  
 }
 .send-message > input {
   height: 40px;
