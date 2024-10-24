@@ -4,6 +4,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import ChatBox from "./components/ChatBox";
 import Welcome from "./components/Welcome";
+import TodoList from "./components/TodoList";
 
 function App() {
   const [user] = useAuthState(auth);
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      {user ? <TodoList /> : <></>}
       {!user ? (
         <Welcome />
       ) : (
