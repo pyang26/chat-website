@@ -46,7 +46,7 @@ function TodoList() {
     value={text}
     onChange={e => setText(e.target.value)} 
     />
-   <button className = "todo-button" onClick={() => addTask(text)}>Add</button>
+   <button className="todo-button" onClick={() => addTask(text)}>Add</button>
    </div>
     </div>
     );
