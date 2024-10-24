@@ -12,9 +12,9 @@ const Welcome = () => {
 
   return (
     <main className="welcome">
-      <h1>Welcome to LingoChatAI.</h1>
+      <h2>Welcome to React Chat.</h2>
       <img src="/logo512.png" alt="ReactJs logo" width={50} height={50} />
-      <h3>Sign in with Google to access our AI service.</h3>
+      <p>Sign in with Google to access our AI service.</p>
       <button className="sign-in">
         <img
           onClick={googleSignIn}
