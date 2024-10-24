@@ -23,10 +23,8 @@ const SendMessage = ({ scroll }) => {
       createdAt: serverTimestamp(),
       uid,
     });
-    const testResponse = await getResponseFromGemini("Hello, how are you?");
-console.log('Test response:', testResponse);
 
-
+/*
     const geminiResponse = await getResponseFromGemini(message);
     
     if (geminiResponse) {
@@ -37,11 +35,11 @@ console.log('Test response:', testResponse);
         uid: "", 
       });
     }
-
+*/
     setMessage("");
     scroll.current.scrollIntoView({ behavior: "smooth" });
   };
-
+/*
   const getResponseFromGemini = async (userMessage) => {
     try {
       console.log('Sending request to Gemini:', { prompt: userMessage });
@@ -76,7 +74,7 @@ console.log('Test response:', testResponse);
     
   };
   
-  
+  */
 
   return (
     <form onSubmit={sendMessage} className="send-message">
