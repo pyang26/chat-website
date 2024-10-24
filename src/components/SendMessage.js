@@ -12,7 +12,6 @@ const SendMessage = ({ scroll }) => {
       alert("Enter valid message");
       return;
     }
-
     const { uid, displayName, photoURL } = auth.currentUser;
 
     // Send user's message to Firebase
