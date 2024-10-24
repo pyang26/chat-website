@@ -4,14 +4,9 @@ function TodoList() {
     const [tasks, setTasks] = useState([
     {
     id: 1,
-    text: 'Doctor Appointment',
-    completed: true
-    },
-    {
-    id: 2,
-    text: 'Meeting at School',
+    text: 'Sample Item',
     completed: false
-    }
+    },
     ]);
     
     const [text, setText] = useState('');
@@ -46,11 +41,13 @@ function TodoList() {
     toggleCompleted={toggleCompleted} 
     />
     ))}
+    <div className="todo-list">
    <input
     value={text}
     onChange={e => setText(e.target.value)} 
     />
-   <button onClick={() => addTask(text)}>Add</button>
+   <button className = "todo-button" onClick={() => addTask(text)}>Add</button>
+   </div>
     </div>
     );
    }
