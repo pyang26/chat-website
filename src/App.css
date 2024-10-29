@@ -21,8 +21,8 @@ input {
 .App {
   width: 100%;
   min-height: 100vh;
-  background-color: #1c2c4c;
-  color: #4c768d;
+  background-color: #f5f5f5;
+  color: #FFB44F;
   padding-top: 60px;
 }
 
@@ -60,12 +60,12 @@ input {
 
 /* welcome page */
 .welcome {
-  padding: 30px;
+  padding: 60px;
   text-align: center;
   margin-top: 40px;
   color: #a4e4a0;
 }
-.welcome :is(h2, p, img) {
+.welcome :is(h1, h3, p, img) {
   margin-bottom: 20px;
 }
 
@@ -78,11 +78,10 @@ input {
   border-radius: 20px 20px 20px 0;
   padding: 15px;
   background-color: #a4e4a0;
-  color: #1c2c4c;
+  color: #000000;
   width: max-content;
   max-width: calc(100% - 50px);
   box-shadow: -2px 2px 1px 1px #a4e4a0;
-
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
@@ -103,7 +102,7 @@ input {
   font-weight: bold;
   margin-bottom: 5px;
   font-size: 0.9rem;
-  color: #1c2c4c;
+  color: #000000;
   word-break: break-all;
   animation: fade-in 1s;
 }
@@ -141,7 +140,7 @@ input {
   border: none;
   flex-grow: 1;
   background-color: white;
-  color: #1c2c4c;
+  color: #090808;
   font-size: 1rem;
 }
 .send-message > input:placeholder {
@@ -168,7 +167,7 @@ input {
   margin-bottom: -30px;
   align-items: center;
   background-color: #a4e4a0;
-  color: #000000;
+  color: #767474;
   width: 100%;
   z-index: 1;
   font-family: sans-serif;
