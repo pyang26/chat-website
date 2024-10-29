@@ -183,7 +183,7 @@ input {
 .todo-list{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 25px;
   align-items: center;
   background-color: #a4e4a0;
   color: #f5f5f5;
@@ -193,8 +193,26 @@ input {
   font-family: sans-serif;
 }
 .todo-button{
-  background-color: #a4e4a0;
-  outline-color: #a4e4a0;
-  color:#FFFFFF
+  background-color: #ffffff;
+  outline-color: #ffffff;
+  border-color: #a4e4a0;
+  color:#a4e4a0;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  font-weight: 600;
 }
+.deletebutton {
+  background-color: #ffffff;
+  outline-color: #ffffff;
+  border-color: #a4e4a0;
+  color:#a4e4a0;
+  display: flex;
 
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+  font-weight: 600;
+
+}
