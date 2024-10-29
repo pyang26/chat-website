@@ -13,7 +13,7 @@ function handleChange() {
  />
 <p className="tasktext">{task.text}</p>
 <button className="deletebutton" onClick={() => deleteTask(task.id)}>
- X
+ Delete
  </button>
  </div>
  );
